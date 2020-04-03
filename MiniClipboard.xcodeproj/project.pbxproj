@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1FFB0667243512C2000972DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB0666243512C2000972DF /* AppDelegate.swift */; };
-		1FFB0669243512C2000972DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB0668243512C2000972DF /* ViewController.swift */; };
 		1FFB066B243512C2000972DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB066A243512C2000972DF /* Assets.xcassets */; };
 		1FFB066E243512C2000972DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB066C243512C2000972DF /* Main.storyboard */; };
+		1FFB06772435135F000972DF /* ClipboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB06762435135F000972DF /* ClipboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FFB0663243512C2000972DF /* MiniClipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniClipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFB0666243512C2000972DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FFB0668243512C2000972DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FFB066A243512C2000972DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FFB066D243512C2000972DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FFB066F243512C2000972DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FFB0670243512C2000972DF /* MiniClipboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniClipboard.entitlements; sourceTree = "<group>"; };
+		1FFB06762435135F000972DF /* ClipboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				1FFB0666243512C2000972DF /* AppDelegate.swift */,
-				1FFB0668243512C2000972DF /* ViewController.swift */,
 				1FFB066A243512C2000972DF /* Assets.xcassets */,
 				1FFB066C243512C2000972DF /* Main.storyboard */,
 				1FFB066F243512C2000972DF /* Info.plist */,
 				1FFB0670243512C2000972DF /* MiniClipboard.entitlements */,
+				1FFB06762435135F000972DF /* ClipboardViewController.swift */,
 			);
 			path = MiniClipboard;
 			sourceTree = "<group>";
@@ -133,8 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FFB0669243512C2000972DF /* ViewController.swift in Sources */,
 				1FFB0667243512C2000972DF /* AppDelegate.swift in Sources */,
+				1FFB06772435135F000972DF /* ClipboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
